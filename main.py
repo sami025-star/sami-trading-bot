@@ -6,13 +6,26 @@ CHAT_ID = "1442211942"
 
 last_update_id = 0
 
+WATCHLIST = ["SPX", "SPY", "QQQ", "INTC", "MU"]
+
 SYMBOLS = {
+
     "SPX": "^GSPC",
+
     "SPY": "SPY",
+
     "QQQ": "QQQ",
+
     "AMD": "AMD",
+
     "NVDA": "NVDA",
-    "TSLA": "TSLA"
+
+    "TSLA": "TSLA",
+
+    "INTC": "INTC",
+
+    "MU": "MU"
+
 }
 
 def get_json(url):
